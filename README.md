@@ -6,11 +6,11 @@ consiste em implementar um serviço de pagamento agendando.
 
 ## Regras de negócios
 
-- [ ] Quando um agendamento é enviado deve ser registrado como pending e retornado o id;
-- [ ] O usuário deve conseguir consultar o status do agendamento `pending | paid`;
-- [ ] Se o pagamento ainda não foi realizado o usuário poderá:
-    - [ ] Excluir o agendamento;
-    - [ ] Atualizar a data/hora do agendamento ou status;
+- [x] Quando um agendamento é enviado deve ser registrado como pending e retornado o id;
+- [x] O usuário deve conseguir consultar o status do agendamento `pending | paid`;
+- [x] Se o pagamento ainda não foi realizado o usuário poderá:
+    - [x] Excluir o agendamento;
+    - [x] Atualizar a data/hora do agendamento ou status;
 
 ### Estrutura do agendamento:
 
